@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<!--Tab Header and bringing in stylesheets-->
+<head>
+
+  <meta charset="UTF-8">
+  <title>Wind</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Style-->
+<style>
+
+    /* h1 heading tag */
+    h1 {
+      /* Put a 15-pixel margin at the bottom of the heading. */
+      margin-bottom: 15px;
+      /* Change the size of your font to 60 pixels high. */
+      font-size: 50spx;
+      /* This will color the heading font white. */
+      color:cadetblue;
+      /* Align the text to the center of its enclosing element (e.g. div). */
+      text-align: center;
+      /* The background of the heading element will now be black. */
+      font-family: Georgia;
+    }
+  
+    /* All img tags */
+    img {
+      /* 
+        Center a block element in the middle of its enclosing tag.
+        When you use the "auto" rule on both left and right margins, 
+        your browser will do the math necessary to center a block element.
+        */
+      margin-left: auto;
+      margin-right: auto;
+      /* Block display (more on this later) */
+      display: block;
+    }
+  
+    /* All p tags */
+    p {
+      text-align: center;
+      font-size: 20px;
+      font-family: Georgia;
+      /* Bold the text. */
+    }
+
+</style>
+
+
+<body style="background-color:oldlace;">
+    <!--NAV BAR-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:cadetblue; color:  oldlace; font-family: Georgia;">
+        <a class="navbar-brand" style="color:oldlace" href="index.html">Weather</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="font-family: Georgia;">
+          <li class="nav-item">
+            <a class="nav-link" href="/Users/ashtonsmith/personal-class/Homework/Web-Design-Challenge/index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/Users/ashtonsmith/personal-class/Homework/Web-Design-Challenge/cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="/Users/ashtonsmith/personal-class/Homework/Web-Design-Challenge/humid.html">Humidity</a>
+                <a class="dropdown-item" href="/Users/ashtonsmith/personal-class/Homework/Web-Design-Challenge/temp.html">Temperature</a>
+                <a class="dropdown-item active" href="/Users/ashtonsmith/personal-class/Homework/Web-Design-Challenge/wind.html">Wind Speed<span class="sr-only">(current)</span></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Users/ashtonsmith/personal-class/Homework/Web-Design-Challenge/comparisons.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Users/ashtonsmith/personal-class/Homework/Web-Design-Challenge/data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--empty bar-->
+
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12"> 
+            <div class="jumbotron" style="background-color: oldlace;">
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--containters-->
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12"> 
+            <div class="jumbotron" style="background-color: white;">
+                <h1> Wind </h1>
+                <hr class="my-4">
+                <figure>
+                    
+                    <img src="/Users/ashtonsmith/personal-class/Homework/Web-Design-Challenge/Resources/Assets/latvwind.png">
+                   
+                </figure>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
